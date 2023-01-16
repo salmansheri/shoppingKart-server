@@ -3,7 +3,7 @@ import {
   verifyTokenAndAuthorization,
   verifyToken,
   verifyTokenAndAdmin,
-} from "./verifyToken";
+} from "./verifyToken.js";
 import orderModel from "../models/orderModel.js";
 
 const router = express.Router();
